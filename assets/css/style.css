@@ -1449,55 +1449,19 @@ textarea.input-field {
     height: 220px;
   }
 
-
-
-  /**
-   * BLOG
-   */
-
   .blog-list { grid-template-columns: 1fr 1fr; }
 
   .blog-card { height: 100%; }
-
-
-
-  /**
-   * FOOTER
-   */
 
   .input-wrapper { grid-template-columns: 1fr 1fr; }
 
 }
 
-
-
-
-
-/**
- * responsive for larger than 992px screen
- */
-
 @media (min-width: 992px) {
-
-  /**
-   * CUSTOM PROPERTY
-   */
-
   :root {
-
-    /**
-     * spacing
-     */
-
     --section-padding: 120px;
 
   }
-
-
-
-  /**
-   * REUSED STYLE
-   */
 
   .container { max-width: 960px; }
 
@@ -1534,12 +1498,6 @@ textarea.input-field {
     color: var(--btn-color);
     letter-spacing: -0.5px;
   }
-
-
-
-  /**
-   * HERO
-   */
 
   .hero {
     min-height: 660px;
