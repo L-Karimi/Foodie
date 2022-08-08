@@ -1565,33 +1565,15 @@ textarea.input-field {
 
   .hero-img-bg { transform: scale(1.4) translate(20px, -20px); }
 
-
-
-  /**
-   * FOOD MENU
-   */
-
   .food-menu-list { grid-template-columns: repeat(3, 1fr); }
 
   .food-menu-card { height: 100%; }
-
-
-
-  /**
-   * CTA
-   */
 
   .cta-img { transform: scale(1.4) translate(20px, 40px); }
 
   .cta-banner .abs-img { left: -50px; }
 
   :is(.cta, .delivery) .section-title { line-height: 1.2; }
-
-
-
-  /**
-   * BANNER
-   */
 
   .banner-lg .banner-title {
     --fs-1: 3.6rem;
@@ -1602,38 +1584,17 @@ textarea.input-field {
   .banner-lg .banner-subtitle { --fs-2: 3.2rem; }
 
 
-
-  /**
-   * TESTIMONIALS
-   */
-
   .testi-list { padding-block-end: 0; }
 
-
-
-  /**
-   * BLOG
-   */
 
   .blog-list { grid-template-columns: repeat(3, 1fr); }
 
   .blog-card .card-title { --fs-3: 2.2rem; }
 
 
-
-  /**
-   * FOOTER
-   */
-
   .footer-top .container { grid-template-columns: 1fr 1fr 1fr 1.6fr; }
 
   .footer-form { margin-block-start: -170px; }
-
-
-
-  /**
-   * BACK TO TOP
-   */
 
   .back-top-btn {
     bottom: 20px;
@@ -1642,13 +1603,6 @@ textarea.input-field {
 
 }
 
-
-
-
-
-/**
- * responsive for larger than 1200px screen
- */
 
 @media (min-width: 1200px) {
   .container { max-width: 1200px; }
