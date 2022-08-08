@@ -8,13 +8,13 @@
   --champagne-pink: hsl(23, 61%, 86%);
   --spanish-gray: hsl(0, 0%, 60%);
   --sonic-silver: hsl(0, 0%, 47%);
-  --deep-saffron: hsl(32, 100%, 59%);
+  --deep-saffron: hsl(32, 51%, 46%);
   --dark-orange: hsl(28, 100%, 58%);
   --desert-sand: hsl(23, 49%, 82%);
   --isabelline: hsl(38, 44%, 96%);
   --gainsboro: hsl(0, 0%, 87%);
   --tangerine: hsl(31, 84%, 50%);
-  --cinnabar: hsl(3, 90%, 55%);
+  --cinnabar: hsl(3, 83%, 55%);
   --black_95: hsla(0, 0%, 0%, 0.95);
   --cultured: hsl(0, 0%, 93%);
   --white: hsl(0, 0%, 100%);
@@ -1073,13 +1073,6 @@ body.active { overflow: hidden; }
 }
 
 
-
-
-
-/*-----------------------------------*\
-  #FOOTER
-\*-----------------------------------*/
-
 .footer { overflow: hidden; }
 
 .footer-top {
@@ -1210,13 +1203,6 @@ textarea.input-field {
 .copyright-link:is(:hover, :focus) { text-decoration: underline; }
 
 
-
-
-
-/*-----------------------------------*\
-  #BACK TO TOP
-\*-----------------------------------*/
-
 .back-top-btn {
   position: fixed;
   bottom: 10px;
@@ -1244,13 +1230,6 @@ textarea.input-field {
 
 
 
-/*-----------------------------------*\
-  #MEDIA QUERIES
-\*-----------------------------------*/
-
-/**
- * responsive for larger than 480px screen
- */
 
 @media (min-width: 480px) {
 
@@ -1275,9 +1254,6 @@ textarea.input-field {
 
 @media (min-width: 550px) {
 
-  /**
-   * REUSED STYLE
-   */
 
   .container {
     max-width: 550px;
@@ -1288,45 +1264,16 @@ textarea.input-field {
   .has-scrollbar > li { min-width: calc(50% - 5px); }
 
 
-
-  /**
-   * HERO
-   */
-
   .hero-title { --fs-1: 4.2rem; }
-
-
-
-  /**
-   * FOOTER
-   */
-
   .footer-top .container { grid-template-columns: 1fr 1fr; }
 
 }
 
 
-
-
-
-/**
- * responsive for larger than 768px screen
- */
-
 @media (min-width: 768px) {
 
-  /**
-   * REUSED STYLE
-   */
-
+ 
   .container { max-width: 720px; }
-
-
-
-  /**
-   * HERO
-   */
-
   .hero {
     position: relative;
     text-align: left;
@@ -1368,10 +1315,6 @@ textarea.input-field {
 
 
 
-  /**
-   * ABOUT
-   */
-
   .about .container {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -1385,12 +1328,6 @@ textarea.input-field {
   .about :is(.section-title, .btn) { margin-inline: 0; }
 
   .about-item { justify-content: flex-start; }
-
-
-
-  /**
-   * FOOD MENU
-   */
 
   .food-menu-list { grid-template-columns: 1fr 1fr; }
 
